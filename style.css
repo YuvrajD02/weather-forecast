@@ -104,5 +104,65 @@ body img{
     column-gap: 80px;
 }
 
+@media (max-width: 500px) {
+    body {
+        padding-top: 30px;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 20px 10px;
+        border-radius: 15px;
+    }
+
+    .searchbox {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .searchbox input {
+        width: 80%;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .body img {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #temp, #time, #name, #region {
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+    }
+
+    .bottom {
+        flex-direction: column;
+        gap: 20px;
+        column-gap: 0;
+        align-items: center;
+    }
+
+    .lefthumidity,
+    .rightspeed {
+        width: 80%;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1, h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
 
 
