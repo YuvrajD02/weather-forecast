@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcasting</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville:wght@700&family=Oswald&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+   
+    <div class="container">
+      <div class="searchbox">
+        <input type="text" placeholder="enter your city name" id="input">
+       <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      
+
+      <div class="body">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/022/287/902/small_2x/3d-rendering-rain-with-cloud-and-sun-icon-3d-render-weather-sun-with-rain-drops-and-cloud-rain-with-cloud-and-sun-png.png">
+        <p id="time"></p>
+        <h1 id="temp"></h1>
+        <span id="name"><b> </b></span>
+         <span id="region"><b></b></span>
+
+      <div class="bottom">
+         <div class="lefthumidity">
+            <i class="fa-solid fa-droplet"></i>
+            <h3 id="humidity"></h3>
+            <p >humidity</p>
+        </div>
+        <div class="rightspeed">
+            <i class="fa-solid fa-wind"></i>
+            <h3 id="windspeed"></h3>
+             <p >wind speed</p>
+        </div>
+        
+      </div>
+      </div>
+
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- <div class="main">
+        <div class="nav"></div>
+        <div class="DIVB">
+            <input type="text" placeholder="enter your city " id="input">
+            <button>submit</button>
+        </div>
+        <div class="divm">
+           
+            <H3 id="name"></H3>
+            <H3 id="region"></H3>
+            <H3 id="country"></H3>
+            <p id="temp"></p>
+            <p id="condition" ></p>
+            <H3>DAY | TIME</H3>
+        </div>
+    </div> -->

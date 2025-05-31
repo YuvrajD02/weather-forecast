@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/010/820/720/original/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg');
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 80vh;
+    background-color: rgb(44, 42, 42);
+    font-family:'Roboto' , 'sans-serif';
+    padding-top: 70px;
+    /* margin-left:600px; */
+}
+.container{
+    background-color: pink;
+    width:350px;
+    height:550px;
+    border-radius: 20px;
+}
+
+.searchbox{
+display:flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+gap:20px;
+
+}
+
+.searchbox  input{
+    outline:none;
+    border:none;
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.searchbox input i{
+    background-color: white;
+    color:black;
+    padding:8px 8px;
+    border-radius: 50px;
+    font-size: 17px;
+    
+}
+
+body img{
+  width:200px;
+  height:300px;
+  margin-left:70px;
+  
+}
+
+#time{
+  
+    
+    text-align: center;
+    /* margin-bottom: 50px;*/
+    /* margin-right: 20px;  */
+    
+}
+#temp{
+   
+    text-align: center;
+    /* padding-right: 20px; */
+   
+}
+#name{
+
+ 
+ margin-left: 25%;
+    
+}
+
+.lefthumidity {
+  
+  
+   width:30%;
+   padding-left: 30px;
+
+   
+
+}
+.rightspeed{
+   
+    width:30%;
+    
+    
+    
+}
+.bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    column-gap: 80px;
+}
+
+
+
