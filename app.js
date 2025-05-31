@@ -1,4 +1,4 @@
-let url='http://api.weatherapi.com/v1/current.json?key=cf9b2f8d8ef04b838ec181115253105&q=';
+let url='https://api.weatherapi.com/v1/current.json?key=cf9b2f8d8ef04b838ec181115253105&q=';
 
 async function getdata(input){
     try{
